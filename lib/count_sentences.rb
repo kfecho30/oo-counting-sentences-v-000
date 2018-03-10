@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    puts test = self.split("."||"!"||"?").length
+    puts self.split("."||"!"||"?").length
   end
 end
